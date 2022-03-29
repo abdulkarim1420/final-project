@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Almarai-Regular";
+    src: url("fonts/Almarai-Regular.ttf");
+}
+  
+* {
+        font-family: "Almarai-Regular";
+}
+
+.btn1 {
+    border-radius: 25px;
+    border: 0;
+    transition: 0.3s;
+    color: white;
+    background-color: #00bccc;
+}
+
+.btn1:hover {
+  background-color: #0a6c75;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn2 {
+    border-radius: 25px;
+    border: solid 2px #00bccc; 
+    transition: 0.3s;
+    color: #00bccc;
+    background-color: #ffffff;
+}
+.btn2:hover {
+  background-color: #0a6c75;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn3 {
+    border-radius: 25px;
+    border: 0;
+    transition: 0.3s;
+    color: white;
+    background-color: #ff0000;
+}
+.btn3:hover {
+  background-color: #b60202;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn4 {
+    border-radius: 25px;
+    border: 0;
+    transition: 0.3s;
+    color: white;
+    background-color: #0fc418;
+}
+.btn4:hover {
+  background-color: #0d8b14;
+  color: white;
+  transition: 0.3s;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.form-select {
+    border-radius: 25px;
+}
+
+.modal-content {
+    border-radius: 18px;
+    border: 0;
+}
+
