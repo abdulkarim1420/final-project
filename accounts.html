@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>الرئيسية - كلية الاتصالات والمعلومات</title>
+    <title>الحسابات - كلية الاتصالات والمعلومات</title>
   </head>
   <body>
   
@@ -19,29 +19,29 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">إنشاء طلب جديد</h5>
+          <h5 class="modal-title" id="exampleModalLabel">إنشاء حساب جديد</h5>
         </div>
         <div class="modal-body">
 
           <form>
             <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label text-center">نوع الطلب</label>
+                <label class="col-sm-3 col-form-label text-center">الاسم</label>
                 <div class="col-sm-9">
                   <input type="text" class="form-control">
                 </div>
               </div>
 
               <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label text-center">المبنى والقاعة</label>
+                <label class="col-sm-3 col-form-label text-center">البريد الإلكتروني</label>
                 <div class="col-sm-9">
                   <input type="text" class="form-control">
                 </div>
               </div>
 
               <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label text-center">وصف الطلب</label>
+                <label class="col-sm-3 col-form-label text-center">كلمة المرور</label>
                 <div class="col-sm-9">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <input type="password" class="form-control">
                 </div>
               </div>
 
@@ -78,13 +78,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fw-bold active" href="index.html">الطلبات</a>
+                <a class="nav-link fw-bold" href="index.html">الطلبات</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-bold" href="departments.html">الأقسام</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="accounts.html">الحسابات</a>
+                <a class="nav-link fw-bold active" href="accounts.html">الحسابات</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-bold" href="my-account.html">حسابي</a>
@@ -97,15 +97,13 @@
       </nav>
       
     <div class="container" style="margin-top: 100px;">
-        <button class="btn btn4" data-bs-toggle="modal" data-bs-target="#exampleModal">انشاء طلب جديد<i class="fas fa-plus ms-2"></i></button>
+        <button class="btn btn4" data-bs-toggle="modal" data-bs-target="#exampleModal">إنشاء حساب جديد<i class="fas fa-plus ms-2"></i></button>
         <table class="table text-center mt-3">
             <thead>
               <tr>
-                <th scope="col">رقم الطلب</th>
-                <th scope="col">مقدم الطلب</th>
-                <th scope="col">نوع الطلب</th>
-                <th scope="col">وصف الطلب</th>
-                <th scope="col">المبنى والقاعة</th>
+                <th scope="col">رقم الحساب</th>
+                <th scope="col">الاسم</th>
+                <th scope="col">البريد الإلكتروني</th>
                 <th scope="col">القسم</th>
                 <th scope="col">الاجراءات</th>
               </tr>
@@ -114,9 +112,7 @@
               <tr>
                 <th scope="row">1</th>
                 <td>عبدالكريم الخلف</td>
-                <td>طلب جهاز جديد</td>
-                <td>طلب جهاز جديد وتجهيزه ببرامج اوفيس</td>
-                <td>م2ق5</td>
+                <td>abdulkarim@outlook.com</td>
                 <td><span class="badge bg-info">تقنية المعلومات</span></td>
                 <td>
                     <button class="btn btn3 btn-sm btn-danger" style="font-size: 15px; border-radius: 10px; width: 35px;"><i class="far fa-trash-alt"></i></button>
@@ -125,9 +121,7 @@
               <tr>
                 <th scope="row">2</th>
                 <td>سعود الحبيب</td>
-                <td>طلب صيانة جهاز</td>
-                <td>الجهاز رقم 23 لا يعمل</td>
-                <td>م3ق1</td>
+                <td>saud@outlook.com</td>
                 <td><span class="badge bg-info">الصيانة والإصلاحات</span></td>
                 <td>
                     <button class="btn btn3 btn-sm" style="font-size: 15px; border-radius: 10px; width: 35px;"><i class="far fa-trash-alt"></i></button>
@@ -136,9 +130,7 @@
               <tr>
                 <th scope="row">3</th>
                 <td>محمد سعد</td>
-                <td>طلب دواء</td>
-                <td>2 حبة بنادول</td>
-                <td>م5ق3</td>
+                <td>mohammed@cti.sa</td>
                 <td><span class="badge bg-info">العيادة الطبية</span></td>
                 <td>
                     <button class="btn btn3 btn-sm" style="font-size: 15px; border-radius: 10px; width: 35px;"><i class="far fa-trash-alt"></i></button>
@@ -147,9 +139,7 @@
               <tr>
                 <th scope="row">4</th>
                 <td>صالح عبدالعزيز</td>
-                <td>طلب من المقهى</td>
-                <td>1 علبة ماء</td>
-                <td>مبنى العمادة</td>
+                <td>saleh@cti.sa</td>
                 <td><span class="badge bg-info">المقهى</span></td>
                 <td>
                     <button class="btn btn3 btn-sm" style="font-size: 15px; border-radius: 10px; width: 35px;"><i class="far fa-trash-alt"></i></button>
